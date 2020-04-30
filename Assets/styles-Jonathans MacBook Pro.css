@@ -344,10 +344,16 @@ html,body
 
 @media (min-width: 1500px)
 {
+    .wrapper
+    {
+        flex-flow: row;
+        align-items: center;
+        justify-items: center;
+    }
+
     .container
     {
         margin: 1em;
-        height: 70vh
     }
 }
 
@@ -394,10 +400,9 @@ html,body
     text-align: start
 }
 
-
 .product ul li
 {
-    text-align: left;
+    text-align: start
 }
 
 #product1, #product3
